@@ -305,9 +305,12 @@ strong,
 	letter-spacing: 1px;
 	font-size: 16px;
 	line-height: 1.6;
-	border: none;
+	
 	padding: 18px 40px 18px 40px;
 	color: #ffffff;
+	box-shadow: 0 0 20px #fff;
+	border: 2px solid #fff;
+	border-radius: 5px !important;
 	-webkit-transition: none;
 	transition: none;
 }
@@ -326,6 +329,9 @@ strong,
 	border-color: rgba(255, 255, 255, 0.5);
 	-webkit-transition: none;
 	transition: none;
+	box-shadow: 0 0 20px #fff;
+	border: 2px solid #fff;
+	border-radius: 5px !important;
 }
 
 .secondary-button:hover {
